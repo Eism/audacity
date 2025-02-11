@@ -73,6 +73,9 @@ set(MODULE_SRC
     ${CMAKE_CURRENT_LIST_DIR}/view/toolbars/snaptoolbaritem.cpp
     ${CMAKE_CURRENT_LIST_DIR}/view/toolbars/snaptoolbaritem.h
 
+    ${CMAKE_CURRENT_LIST_DIR}/view/toolbars/workspacestoolbarmodel.cpp
+    ${CMAKE_CURRENT_LIST_DIR}/view/toolbars/workspacestoolbarmodel.h
+
     ${CMAKE_CURRENT_LIST_DIR}/view/clipsview/clipslistmodel.cpp
     ${CMAKE_CURRENT_LIST_DIR}/view/clipsview/clipslistmodel.h
     ${CMAKE_CURRENT_LIST_DIR}/view/clipsview/cliplistitem.cpp
