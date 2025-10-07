@@ -134,6 +134,10 @@ jobs:
       shell: bash
       run: |
         APP_BIN=$(pwd)/build.release/audacity.pdb
+
+        APP_DIR=$(pwd)/build.release
+        ls -la ${APP_DIR}
+
         cmake -DAPP_BIN=${APP_BIN} \
               -DSENTRY_URL=https://sentry.audacityteam.org \
               -DSENTRY_ORG=sentry \
